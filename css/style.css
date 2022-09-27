@@ -90,7 +90,10 @@ h1,h2,h3{
 .offer_item .content h2,
 .offer_item .content h2 > a{
     color: #00D54B;
-    font-size: 28px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #232323;
+
 }
 
 .offer_item .content p{
@@ -120,9 +123,15 @@ h1,h2,h3{
     background-size: cover;
 }
 
-.free_content h2{
+.free_content h2,
+.free_content h2 > a{
     margin-bottom: 20px;
-}
+        color: #00D54B;
+        font-size: 35px;
+        text-decoration: none;
+        color: #232323;
+    
+    }
 
 
 #subscribe{
