@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+/* 
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Montserrat', sans-serif; 
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: normal;
+}
+h1,h2,h3{
+    font-family: 'Dela Gothic One', cursive; 
+}
+#banner{
+    position: relative;
+    overflow: hidden;
+    background: #00D54B;
+    padding: 200px 0px;
+}
+
+.img__animations{
+    width: 750px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    z-index: 1;
+}
+#banner h1,
+#banner h1 > a{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #232323;
+    text-decoration: none;
+}
+
+#banner p{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.banner_img {
+    position: relative;
+    text-align: right;
+    z-index: 8;
+}
+.banner_img img{
+    max-width: 300px;
+    z-index: 9;
+}
+
+.btn__custom{
+    padding: 15px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    background: #232323;
+    color: #fff;
+}
+
+#offer{
+    padding: 50px 0;
+}
+.offer_item {
+    text-align: center;
+}
+
+.offer_item > .icon{
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.offer_item > .icon > img{
+    width: 100%;
+}
+
+.offer_item .content{
+    text-align: center;
+}
+
+.offer_item .content h2,
+.offer_item .content h2 > a{
+    color: #00D54B;
+    font-size: 28px;
+}
+
+.offer_item .content p{
+    font-size: 18px;
+    color: #232323;
+    font-weight: normal;
+}
+
+.btn-offer{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #00D54B;
+    color: #232323;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: #00D54B;
+}
+
+#free{
+    padding: 125px 0;
+}
+
+#free.bg_type1{
+    background:#b5bebd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.free_content h2{
+    margin-bottom: 20px;
+}
+
+
+#subscribe{
+    padding: 150px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(./../images/ssndSection_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subscribe_content_box{
+    background: #fff;
+    padding: 50px 0px;
+    border-radius: 20px;
+}
+
+.custom_form{
+    margin-bottom: 10px;
+    min-height: 50px;
+    border-radius: 10px;
+    border-color: #00D54B;
+    border-width: 2px;
+    outline: none;
+}
+#footer{
+    padding: 100px 0;
+    background: #000;
+}
+
+#footer .footer_logo > img{
+    filter: invert(1);
+}
+
+#footer p{
+    color: #fff
+}
+
+.btn__footer{
+    background: #00D54B;
+    padding: 15px 35px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 550px) {
+    
+#banner{
+    padding: 180px 0px;
+    text-align: center;
+}
+
+.img__animations{
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    z-index: 1;
+}
+#banner h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+#banner p{
+    text-align: center;
+}
+
+.banner_img {
+    margin-top: 50px;
+    text-align: center;
+}
+.banner_img img{
+    max-width: 300px;
+    z-index: 9;
+}
+
+.offer_item{
+    margin-bottom: 30px;
+}
+
+.subscribe_content_box{
+    padding: 40px;
+}
+#free{
+    text-align: center;
+}
+
+.free_content{
+    margin-bottom: 50px;
+}
+}
